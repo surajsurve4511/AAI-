@@ -1,5 +1,5 @@
 import pyttsx3
-import spech_recognition
+import spech_recognition as sr
 
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
